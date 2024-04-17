@@ -1,0 +1,40 @@
+.hori {
+  width: 100%;
+  border-width: 1px;
+  margin-top: 30px;
+  background-color: #272727;
+}
+
+.employment-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  color: white;
+  margin-top: 10px;
+}
+
+.ul-employment {
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 8px;
+}
+
+.employment-list {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.checkbox-label {
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.horiz {
+  width: 100%;
+  border-width: 1px;
+  margin-top: -12px;
+  background-color: #64748b;
+}
