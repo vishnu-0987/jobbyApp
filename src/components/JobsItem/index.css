@@ -101,3 +101,18 @@
 .link-click {
   text-decoration: none;
 }
+
+@media screen and (max-width: 767px) {
+  .location-employment-images {
+    font-size: 17px;
+  }
+  .location-para {
+    font-size: 11px;
+  }
+  .employment-para {
+    font-size: 11px;
+  }
+  .package-heading {
+    font-size: 13px;
+  }
+}

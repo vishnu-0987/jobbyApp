@@ -281,7 +281,7 @@ class Jobs extends Component {
     const {searchInput} = this.state
     return (
       <div className="right-main-container">
-        <div className="search-container">
+        <div className="search-container sc2">
           <input
             type="search"
             className="search-query"
@@ -308,6 +308,7 @@ class Jobs extends Component {
   }
 
   render() {
+    const {searchInput} = this.state
     return (
       <div
         style={{
@@ -318,6 +319,27 @@ class Jobs extends Component {
         <Header />
         <div className="jobs-whole-container">
           <div className="jobs-bg-container">
+            <div className="search-container sc1">
+              <input
+                type="search"
+                className="search-query"
+                placeholder="Search"
+                value={searchInput}
+                onChange={this.changeSearchInput}
+              />
+              <div className="search-icon-container">
+                <button
+                  className="search-button"
+                  id="searchButton"
+                  type="button"
+                  data-testid="searchButton"
+                  onClick={this.SearchInputClick}
+                  aria-label="Search"
+                >
+                  <MdSearch className="search-icon" />
+                </button>
+              </div>
+            </div>
             {this.renderFilterJobs()}
             <>{this.renderMainContainer()}</>
           </div>

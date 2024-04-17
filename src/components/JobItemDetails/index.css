@@ -253,3 +253,84 @@
   align-items: center;
   width: 100%;
 }
+
+@media screen and (max-width: 767px) {
+  .success-job-details-container {
+    padding: 25px;
+    padding-top: 40px;
+    margin-bottom: 0px;
+  }
+  .selected-job-details-container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .skill-each-list-item {
+    width: 48%;
+  }
+  .company-life-culture-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .life-des-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .life-des-para {
+    width: 100%;
+    font-size: 17px;
+  }
+  .life-img {
+    width: 100%;
+    margin-left: 0px;
+    height: 90%;
+  }
+  .similar-jobs-container {
+    width: 100%;
+  }
+  .similar-job-header {
+    margin-top: 0px;
+  }
+  .similar-job-list-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .similar-hob-list-item {
+    width: 100%;
+  }
+  .loc2 {
+    font-size: 20px;
+  }
+  .locpara2 {
+    font-size: 13px;
+  }
+  .empara2 {
+    font-size: 13px;
+  }
+  .pack2 {
+    font-size: 16px;
+  }
+  .des-head2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .des-con2 {
+    margin-top: 0px;
+    font-size: 17px;
+  }
+  .skills-job-container {
+    margin-top: 5px;
+  }
+  .skills-header {
+    font-size: 22px;
+  }
+  .company-life-culture-container {
+    margin-top: -30px;
+  }
+  .company-life-header {
+    font-size: 22px;
+  }
+}
